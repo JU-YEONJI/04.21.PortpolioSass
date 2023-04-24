@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Main</title>
 </head>
@@ -13,99 +15,76 @@
     <!-- header -->
     <section id="box01">
 
-        <h1><a href="#"><img src="./img/logo.png" alt="로고"></a></h1>
+        <h1><a href="#"><img src="./img/logo_bianco_no-back.png" alt="로고"></a></h1>
 
         <!-- div.nav -->
         <div class="nav">
-        <h2 class="hide">메인 네비게이션</h2>
-        <p><i class="fa-solid fa-bars"></i></p>
-        <!-- menu -->
-        <ul>
-            <li class="menu01"> 대형/빌트인
-                <div>
-                <ul>
-                    <li><a href="#"> 냉장고 </a></li>
-                    <li><a href="#"> 와인셀러 </a></li>
-                    <li><a href="#"> 인덕션 </a></li>
-                    <li><a href="#"> 오븐 </a></li>
-                    <li><a href="#"> 주방후드 </a></li>
-                    <li><a href="#"> 식기세척기 </a></li>
-                </ul>
-                <figure><img src="./img/menu_Big.jpg" alt="menu01"></figure>
-                </div>
-            </li>
-            <li class="menu02"> 소형가전
-                <div>
-                <ul>
-                    <li><a href="#">전기포트</a></li>
-                    <li><a href="#">토스트기</a></li>
-                    <li><a href="#">핸드믹서</a></li>
-                    <li><a href="#">착즙기</a></li>
-                    <li><a href="#">반죽기</a></li>
-                </ul>
-                <figure><img src="./img/menu_small.jpg" alt="menu02"></figure>
-                </div>
-            </li>
-            <li class="menu03"> 홈카페
-                <div>
-                <ul>
-                    <li><a href="#">전자동커피머신</a></li>
-                    <li><a href="#">드립커피머신</a></li>
-                    <li><a href="#">반자동커피머신</a></li>
-                    <li><a href="#">밀크포머</a></li>
-                    <li><a href="#">커피그라운드</a></li>
-                    <li><a href="#">원두</a></li>
-                </ul>
-                <figure><img src="./img/menu_cooffe.jpg" alt="menu03"></figure>
-                </div>
-            </li>
-            <li class="menu04"> 쿡웨어
-                <div>
-                <ul>
-                    <li><a href="#">프라이팬</a></li>
-                    <li><a href="#">양수냄비</a></li>
-                    <li><a href="#">전기냄비</a></li>
-                    <li><a href="#">웍</a></li>
-                </ul>
-                <figure><img src="./img/menu_Cook.jpg" alt="menu04"></figure>
-                </div>
-            </li>
-            <li class="menu05"> 스페셜에디션
-                <div>
-                <ul>
-                    <li><a href="">SMEG X D&G</a></li>
-                    <li><a href="">SMEG X FIAT</a></li>
-                    <li><a href="">SMEG x DISNEY</a></li>
-                    <li><a href="">SMEG x DISNEY</a></li>
-                </ul>
-                <figure><img src="./img/menu_speacial.png" alt="menu05"></figure>
-            </div>
-            </li>
-            <li class="menu06"> 서비스
-                <div>
-                <ul>
-                    <li><a href=""></a></li>
-                </ul>
-                <figure><img src="./img/menu_service.png" alt="menu06"></figure>
-                </div>
-            </li>
-            <li class="menu07"> 추가구성품
-                <div>
-                <ul class="list7">
-                    <li><a href=""></a></li>
-                </ul>
-                <figure><img src="./img/menu_ect.jpg" alt="menu07"></figure>
-                </div>
-            </li>
-        </ul>
-        <!-- icon -->
-        <ul>
-            <li><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li><i class="fa-solid fa-headphones"></i></li>
-            <li><i class="fa-regular fa-user"></i></li>
-            <li><i class="fa-regular fa-heart"></i></li>
-        </ul>
+            <h2 class="hide">메인 네비게이션</h2>
+
+            <p><i class="fa-solid fa-bars"></i></p>
+            <!-- menu -->
+            <ul class="menu">
+                <li class="menu01"> 대형/빌트인
+                    <ul>
+                        <li><a href="#"> 냉장고 </a></li>
+                        <li><a href="#"> 와인셀러 </a></li>
+                        <li><a href="#"> 인덕션 </a></li>
+                        <li><a href="#"> 오븐 </a></li>
+                        <li><a href="#"> 주방후드 </a></li>
+                        <li><a href="#"> 식기세척기 </a></li>
+                    </ul>
+                </li>
+                <li class="menu02"> 소형가전
+                    <ul>
+                        <li><a href="#">전기포트</a></li>
+                        <li><a href="#">토스트기</a></li>
+                        <li><a href="#">핸드믹서</a></li>
+                        <li><a href="#">착즙기</a></li>
+                        <li><a href="#">반죽기</a></li>
+                    </ul>
+                </li>
+                <li class="menu03"> 홈카페
+                    <ul>
+                        <li><a href="#">전자동커피머신</a></li>
+                        <li><a href="#">드립커피머신</a></li>
+                        <li><a href="#">반자동커피머신</a></li>
+                        <li><a href="#">밀크포머</a></li>
+                        <li><a href="#">커피그라운드</a></li>
+                        <li><a href="#">원두</a></li>
+                    </ul>
+                </li>
+                <li class="menu04"> 쿡웨어
+                    <ul>
+                        <li><a href="#">프라이팬</a></li>
+                        <li><a href="#">양수냄비</a></li>
+                        <li><a href="#">전기냄비</a></li>
+                        <li><a href="#">웍</a></li>
+                    </ul>
+                </li>
+                <li class="menu05"> 스페셜에디션
+                    <ul>
+                        <li><a href="">SMEG X D&G</a></li>
+                        <li><a href="">SMEG X FIAT</a></li>
+                        <li><a href="">SMEG x DISNEY</a></li>
+                        <li><a href="">SMEG x DISNEY</a></li>
+                    </ul>
+                </li>
+                <li class="menu06"> 서비스
+                </li>
+                <li class="menu07"> 추가구성품
+                </li> 
+            </ul>
+            <!-- icon -->
+            
+            <ul class="icon">
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-headphones"></i></li>
+                <li><i class="fa-regular fa-user"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+            </ul>
         </div>
+
+        <span></span>
 
         <section id="show">
             <ul class="backImg">
@@ -123,6 +102,8 @@
 
     <!-- box01 big sale -->
     <section id="box02">
+     <div>
+      <div>
         <!-- saleLeft -->
         <div class="saleLeft">
             <span></span>
@@ -131,17 +112,19 @@
                 <p>Big DISCCOUNT FORM OUR STORE</p>
                 <h3>EXTRA <i>40&#37;</i> OFF</h3>
                 <p>ON ORDERS ABOVE $3,299</p>
-                <button type="button"></button>
+                <button type="button">shop now</button>
             </div>
         </div>
         <!-- saleRight -->
-        <di class="saleRight">
+        <div class="saleRight">
             <span></span>
             <dl>
                 <dt>EXTRA 40&#37; OFF</dt>
                 <dd>on Fashion wear</dd>
             </dl>
         </div>
+      </div>
+     </div>
     </section>
 
     <!-- box02 news -->

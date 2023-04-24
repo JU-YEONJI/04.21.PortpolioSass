@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+.hide{width: 0; height: 0;
+text-align: 0; position: absolute;
+line-height: 0; display: none;}
+
+
+body{}
+
+#wrap{}
+
+/* header */
+
+#box01{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#box01>span{
+    z-index: -100;
+    width: 100vw; height: 90vh;
+    position: absolute;
+    left: 0; top: -5%;
+    background: linear-gradient(black,transparent);
+}
+
+#box01>#show{
+    width: 100vw;
+    position: absolute;
+    left: 0; top: -5%;
+    z-index: -300;
+}
+
+#box01>#show>ul{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 10000px;
+}
+
+#box01>#show>ul>li{
+    width: 100vw;
+}
+
+#box01>#show>ul>li>img{
+    width: 100%;
+}
+
+/* h1 */
+#box01>h1{
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 36px;
+}
+
+#box01>h1>a{}
+
+#box01>h1>a>img{width: 100%;}
+
+#box01>.nav{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1316px;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+#box01 .menu{
+    font-size: 14px;
+    display: flex;
+}
+
+#box01 .menu>li{
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    padding: 0 30px;
+}
+
+#box01 .menu>li>ul{
+    display: none;
+    position: absolute;
+    left: 15px;
+    width: 200px;
+    padding-top: 15px;
+}
+
+#box01 .menu>li>ul>li{
+    padding: 15px;
+}
+
+#box01 .menu>li>ul>li>a{
+    color: white;
+}
+
+#box01 .menu>li:hover>ul{
+    display: block;
+}
+
+#box01 .icon{
+    display: flex;
+    font-weight: lighter;
+}
+
+#box01 .icon>li{
+    margin-right: 20px;
+}
+
+
+/* box02 */
+
+#box02{
+    background: url('../img/sale_main.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#box02>div{
+    background: linear-gradient(to top, black 20%, transparent) rgba(0, 0, 0, 0.4);
+}
+
+#box02>div>div{
+    width: 1316px;
+    padding: 183px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* left */
+
+#box02 .saleLeft{
+    display: flex;
+}
+
+#box02 .saleLeft>span{
+    display: block;
+    width: 325px; height: 325px;
+    background: url('../img/Sale_left.png') no-repeat center left #fff;
+    background-size: contain;
+    margin-right: 18px;
+}
+
+#box02 .saleLeft>div{
+    margin-right: 90px;
+    color: white;
+}
+
+#box02 .saleLeft>div>small{
+    font-size: 12px;
+}
+
+#box02 .saleLeft>div>h3{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+#box02 .saleLeft>div>h3>i{
+    font-style: normal;
+    font-weight: bold;
+    color: #e3ff46;
+}
+
+#box02 .saleLeft>div>p{
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.saleLeft button{
+    cursor: pointer;
+    background-color: #e3ff46;
+    padding: 0 18px;
+    line-height: 35px;
+}
+
+/* right */
+
+#box02 .saleRight{
+    position: relative;
+    display: flex;
+}
+
+.saleRight>span{
+    position: absolute;
+    display: block;
+    width: 385px; height: 385px;
+    background-color: aqua;
+    background: url('../img/Sale_right.png') no-repeat center left;
+    background-size: cover;
+    position: relative;
+}
+
+.saleRight>dl{
+    position: absolute;
+    bottom: 140px; right: 0;
+    z-index: 100;
+    color: #000;
+}
+
+.saleRight>dl>dt{
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.saleRight>dl>dd{
+    display: inline-block;
+    padding: 5px;
+    background-color: #e3ff46;
+}
+
+/*  */
+
+#box03{}
+#box04{} 
